@@ -263,7 +263,7 @@
     <Text Include="Example\Shaders\Simple3DForward.hlsl" />
     <Text Include="Example\Shaders\Swirl2D.hlsl" />
     <Text Include="Example\Shaders\Terrain3D.hlsl" />
-    <Text Include="Example\Shaders\Wave2DPointSprites.hlsl" />    
+    <Text Include="Example\Shaders\Wave2DPointSprites.hlsl" />
     <Text Include="Example\Test.txt" />
     <Text Include="Example\素材について.txt" />
   </ItemGroup>
@@ -273,6 +273,9 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="Example\YomogiFont.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandWIndow.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
